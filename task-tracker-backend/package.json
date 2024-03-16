@@ -4,7 +4,8 @@
   "description": "Task-Tracker backend",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/vishalkandu01/Task-Tracker/issues"
   },
-  "homepage": "https://github.com/vishalkandu01/Task-Tracker#readme"
+  "homepage": "https://github.com/vishalkandu01/Task-Tracker#readme",
+  "dependencies": {
+    "mongoose": "^8.2.2"
+  }
 }
