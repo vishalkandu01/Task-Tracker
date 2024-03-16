@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Task-Tracker backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalkandu01/Task-Tracker.git"
+  },
+  "author": "Vishal Kandu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishalkandu01/Task-Tracker/issues"
+  },
+  "homepage": "https://github.com/vishalkandu01/Task-Tracker#readme"
+}
