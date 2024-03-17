@@ -1,6 +1,8 @@
-import './App.css'
+// import './App.css'
+
+import React from "react"
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Todo from './components/Todo'
+import Todo from './components/Todo.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
