@@ -15,15 +15,8 @@ app.use(express.json());
 
 dbConnect()
 
-app.get("/", (req, res) => {
-    return res.json({
-        Message: "server is giving the response",
-        visit: "localhost:8000/api/task-tracker"
-    })
-})
-
 app.use("/api", taskRoutes);
 
 
 const PORT = process.env.PORT
-app.listen(PORT, () => `Server is started at port ${PORT}`)
+app.listen(PORT, () => console.log(`Server is started at port ${PORT}`))
